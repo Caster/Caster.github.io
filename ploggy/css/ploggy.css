@@ -6668,14 +6668,13 @@ ul:last-child {
   padding: 0 30px;
 }
 .stats {
+  display: table;
+  width: 100%;
   padding: 4px 15px;
   border: 2px solid #eeeeee;
-  text-align: justify;
-  -moz-text-align-last: justify;
-  text-align-last: justify;
 }
 .stats .stat {
-  display: inline-block;
+  display: table-cell;
   text-align: center;
 }
 .stats .stat .stat-val {
