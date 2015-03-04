@@ -6660,6 +6660,9 @@ ul:last-child {
 .header > .nav {
   margin: 4px 0 0;
 }
+.header > .nav > li {
+  display: inline-block;
+}
 .header > h3.text-muted {
   margin: 0;
   padding: 7px 15px;
